@@ -1,8 +1,4 @@
-/*
-Configuration
-------------------------
-If something doesn't work please contact me on discord (Astronawta#0012).
-*/
+
 
 const config = {
     serverInfo: {
@@ -12,30 +8,7 @@ const config = {
         discordServerID: "774004070859800616" /*Your server ID (if you want to add online user counter, you must have enabled Discord server widget)*/
     },
 
-    /*Team
-    ------------
-    If you want to create new group, you must add this structure to adminTeamPage:
-    <nameOfGroup>: [
-        {
-            inGameName: "NxtRevers",
-            rank: "Owner",
-            skinUrlOrPathToFile: "",
-            rankColor: ""
-        },
-    ]
-    then you must add this group with same name to atGroupsDefaultColors and set the color you want for the group.
-    You can also set a special color for a specific user, just put it in the rankColor of that user.
 
-    All skins for original players are generate automaticaly. If you want to add skins to warez players, yout must add url for skin to skinUrlOrPathToFile
-        {
-            inGameName: "NxtRevers",  <--- In-Game name
-            rank: "Owner",  <-- rank
-            skinUrlOrPathToFile: "",  <-- url or file path for skin image for warez players (if you have original minecraft leave it be empty)
-            rankColor: "rgba(255, 3, 3, 1)"  <-- special rank color
-        },
-
-    If you want to change skin type replace userSKinTypeInAdminTeam with something you want from array in comments
-    */
     userSKinTypeInAdminTeam: "bust", /*[full, bust, head, face, front, frontFull, skin]*/
     atGroupsDefaultColors: {
         owners: "rgb(109,14,37)",
