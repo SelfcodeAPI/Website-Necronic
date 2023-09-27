@@ -118,7 +118,7 @@ const config = {
         ],
         helpers: [
             {
-                inGameName: "WeiblichZwoelf",
+                inGameName: "Searched",
                 rank: "Helper",
                 skinUrlOrPathToFile: "",
                 rankColor: "rgb(185,182,4)"            },
