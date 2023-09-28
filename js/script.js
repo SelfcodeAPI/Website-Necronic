@@ -38,6 +38,12 @@ const config = {
                 rank: "Admin",
                 skinUrlOrPathToFile: "",
                 rankColor: "rgb(121,14,14)"
+            },
+            {
+                inGameName: "AtomOrangeEmi",
+                rank: "Admin",
+                skinUrlOrPathToFile: "",
+                rankColor: "rgb(121,14,14)",
             }
         ],
         gameDesigner: [
