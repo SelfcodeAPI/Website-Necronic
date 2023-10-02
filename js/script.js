@@ -28,13 +28,7 @@ const config = {
         ],
         admins: [
             {
-                inGameName: "LilaAtomBurger",
-                rank: "Admin",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(121,14,14)"
-            },
-            {
-                inGameName: "CutiVana",
+                inGameName: "PyjamaMurmeli",
                 rank: "Admin",
                 skinUrlOrPathToFile: "",
                 rankColor: "rgb(121,14,14)"
