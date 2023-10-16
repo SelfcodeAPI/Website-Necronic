@@ -1,5 +1,3 @@
-
-
 const config = {
     serverInfo: {
         serverLogoImageFileName: "logo.png", /*This is a file name for logo in /images/ (If you upload new logo with other name, you must change this value)*/
@@ -16,133 +14,48 @@ const config = {
         gameDesigner: "rgb(63,16,134)",
         moderator: "rgb(25,102,56)",
         helpers: "rgb(185,182,4)",
-    },
-    adminTeamPage: {
-        owners: [
-            {
-                inGameName: "Selfcode",
-                rank: "Owner",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(109,14,37)"
-            },
-        ],
-        admins: [
-            {
-                inGameName: "PyjamaMurmeli",
-                rank: "Admin",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(121,14,14)"
-            }
-        ],
-        gameDesigner: [
-            {
-                inGameName: "Searched",
-                rank: "GameDesigner",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(63,16,134)"
-            },
-            {
-                inGameName: "Searched",
-                rank: "GameDesigner",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(63,16,134)"
-            },
-            {
-                inGameName: "Searched",
-                rank: "GameDesigner",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(63,16,134)"
-            },
-            {
-                inGameName: "Searched",
-                rank: "GameDesigner",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(63,16,134)"
-            },
-            {
-                inGameName: "Searched",
-                rank: "GameDesigner",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(63,16,134)"
-            },
-            {
-                inGameName: "Searched",
-                rank: "GameDesigner",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(63,16,134)"
-            }
-        ],
-        moderator: [
-            {
-                inGameName: "Searched",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(25,102,56)"
-            },
-            {
-                inGameName: "Searched",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(25,102,56)"
-            },
-            {
-                inGameName: "Searched",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(25,102,56)"
-            },
-            {
-                inGameName: "Searched",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(25,102,56)"
-            },
-            {
-                inGameName: "Searched",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(25,102,56)"
-            },
-            {
-                inGameName: "Searched",
-                rank: "Moderator",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(25,102,56)"
-            }
-        ],
-        helpers: [
-            {
-                inGameName: "Searched",
-                rank: "Helper",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(185,182,4)"            },
-            {
-                inGameName: "Searched",
-                rank: "Helper",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(185,182,4)"            },
-            {
-                inGameName: "Searched",
-                rank: "Helper",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(185,182,4)"            },
-            {
-                inGameName: "Searched",
-                rank: "Helper+",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(185,182,4)"            },
-            {
-                inGameName: "Searched",
-                rank: "Helper",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(185,182,4)"            },
-            {
-                inGameName: "Searched",
-                rank: "Helper",
-                skinUrlOrPathToFile: "",
-                rankColor: "rgb(185,182,4)"
-            }
-        ],
+    }, adminTeamPage: {
+        owners: [{
+            inGameName: "Selfcode", rank: "Owner", skinUrlOrPathToFile: "", rankColor: "rgb(109,14,37)"
+        },], admins: [{
+            inGameName: "PyjamaMurmeli", rank: "Admin", skinUrlOrPathToFile: "", rankColor: "rgb(121,14,14)"
+        }], gameDesigner: [{
+            inGameName: "Searched", rank: "GameDesigner", skinUrlOrPathToFile: "", rankColor: "rgb(63,16,134)"
+        }, {
+            inGameName: "Searched", rank: "GameDesigner", skinUrlOrPathToFile: "", rankColor: "rgb(63,16,134)"
+        }, {
+            inGameName: "Searched", rank: "GameDesigner", skinUrlOrPathToFile: "", rankColor: "rgb(63,16,134)"
+        }, {
+            inGameName: "Searched", rank: "GameDesigner", skinUrlOrPathToFile: "", rankColor: "rgb(63,16,134)"
+        }, {
+            inGameName: "Searched", rank: "GameDesigner", skinUrlOrPathToFile: "", rankColor: "rgb(63,16,134)"
+        }, {
+            inGameName: "Searched", rank: "GameDesigner", skinUrlOrPathToFile: "", rankColor: "rgb(63,16,134)"
+        }], moderator: [{
+            inGameName: "Searched", rank: "Moderator", skinUrlOrPathToFile: "", rankColor: "rgb(25,102,56)"
+        }, {
+            inGameName: "Searched", rank: "Moderator", skinUrlOrPathToFile: "", rankColor: "rgb(25,102,56)"
+        }, {
+            inGameName: "Searched", rank: "Moderator", skinUrlOrPathToFile: "", rankColor: "rgb(25,102,56)"
+        }, {
+            inGameName: "Searched", rank: "Moderator", skinUrlOrPathToFile: "", rankColor: "rgb(25,102,56)"
+        }, {
+            inGameName: "Searched", rank: "Moderator", skinUrlOrPathToFile: "", rankColor: "rgb(25,102,56)"
+        }, {
+            inGameName: "Searched", rank: "Moderator", skinUrlOrPathToFile: "", rankColor: "rgb(25,102,56)"
+        }], helpers: [{
+            inGameName: "Searched", rank: "Helper", skinUrlOrPathToFile: "", rankColor: "rgb(185,182,4)"
+        }, {
+            inGameName: "Searched", rank: "Helper", skinUrlOrPathToFile: "", rankColor: "rgb(185,182,4)"
+        }, {
+            inGameName: "Searched", rank: "Helper", skinUrlOrPathToFile: "", rankColor: "rgb(185,182,4)"
+        }, {
+            inGameName: "Searched", rank: "Helper+", skinUrlOrPathToFile: "", rankColor: "rgb(185,182,4)"
+        }, {
+            inGameName: "Searched", rank: "Helper", skinUrlOrPathToFile: "", rankColor: "rgb(185,182,4)"
+        }, {
+            inGameName: "Searched", rank: "Helper", skinUrlOrPathToFile: "", rankColor: "rgb(185,182,4)"
+        }],
     },
 
     /*
@@ -157,20 +70,6 @@ const config = {
 }
 
 /*If you want to change website color go to /css/global.css and in :root {} is a color pallete (don't change names of variables, change only values)*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*If you want everything to work as it should and you don't understand what is written here, don't touch it :D*/
@@ -194,8 +93,7 @@ accordionItemHeaders.forEach(accordionItemHeader => {
         accordionItemHeader.classList.toggle("active");
         const accordionItemBody = accordionItemHeader.nextElementSibling;
 
-        if(accordionItemHeader.classList.contains("active")) accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
-        else accordionItemBody.style.maxHeight = "0px";
+        if (accordionItemHeader.classList.contains("active")) accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px"; else accordionItemBody.style.maxHeight = "0px";
     });
 });
 
@@ -219,8 +117,7 @@ const getDiscordOnlineUsers = async () => {
         let response = await fetch(apiWidgetUrl);
         let data = await response.json();
 
-        if(!data.presence_count) return "None";
-        else return (await data.presence_count);
+        if (!data.presence_count) return "None"; else return (await data.presence_count);
     } catch (e) {
         return "None";
     }
@@ -259,8 +156,7 @@ const getSkinByUuid = async (username) => {
         const skinByUuidApi = `https://visage.surgeplay.com/${config.userSKinTypeInAdminTeam}/512/${await getUuidByUsername(username)}`;
         let response = await fetch(skinByUuidApi);
 
-        if(response.status === 400) return `https://visage.surgeplay.com/${config.userSKinTypeInAdminTeam}/512/ec561538f3fd461daff5086b22154bce`;
-        else return skinByUuidApi;
+        if (response.status === 400) return `https://visage.surgeplay.com/${config.userSKinTypeInAdminTeam}/512/ec561538f3fd461daff5086b22154bce`; else return skinByUuidApi;
     } catch (e) {
         console.log(e);
         return "None";
@@ -275,7 +171,7 @@ const copyIp = () => {
     copyIpButton.addEventListener("click", () => {
         try {
             navigator.clipboard.writeText(config.serverInfo.serverIp);
-    
+
             copyIpAlert.classList.add("active");
 
             setTimeout(() => {
@@ -305,19 +201,18 @@ const setDataFromConfigToHtml = async () => {
 
     let locationPathname = location.pathname;
 
-    if(locationPathname === "/" || locationPathname.includes("index")) {
+    if (locationPathname === "/" || locationPathname.includes("index")) {
         copyIp();
         /*Set config data to header*/
         serverLogoHeader.src = `images/` + config.serverInfo.serverLogoImageFileName;
         discordOnlineUsers.innerHTML = await getDiscordOnlineUsers();
         minecraftOnlinePlayers.innerHTML = await getMinecraftOnlinePlayer();
-    } else if(locationPathname.includes("rules")) {
+    } else if (locationPathname.includes("rules")) {
         copyIp();
-    }
-    else if(locationPathname.includes("team")) {
+    } else if (locationPathname.includes("team")) {
         for (let team in config.adminTeamPage) {
             const atContent = document.querySelector(".at-content");
-            
+
             const group = document.createElement("div");
             group.classList.add("group");
             group.classList.add(team);
@@ -339,10 +234,10 @@ const setDataFromConfigToHtml = async () => {
 
                 let userSkin = config.adminTeamPage[team][j].skinUrlOrPathToFile;
 
-                if(userSkin === "") userSkin = await getSkinByUuid(user.inGameName);
+                if (userSkin === "") userSkin = await getSkinByUuid(user.inGameName);
                 let rankColor = config.atGroupsDefaultColors[team];
 
-                if(user.rankColor !== "") {
+                if (user.rankColor !== "") {
                     rankColor = user.rankColor;
                 }
 
@@ -354,7 +249,7 @@ const setDataFromConfigToHtml = async () => {
                 group.appendChild(userDiv);
             }
         }
-    } else if(locationPathname.includes("contact")) {
+    } else if (locationPathname.includes("contact")) {
         contactForm.action = `https://formsubmit.co/${config.contactPage.email}`;
         discordOnlineUsers.innerHTML = await getDiscordOnlineUsers();
         inputWithLocationAfterSubmit.value = location.href;
